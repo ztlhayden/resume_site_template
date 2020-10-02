@@ -3,11 +3,21 @@ module.exports = {
     title: `Hayden Young's Resume`,
     description: `Freelance web designer from Lexington, Kentucky.`,
     author: `Hayden Young`,
+  },
+  resumeData: {
     name:`Hayden Young`,
-    title:`Mr.`,
-    objective:`To provide your orginization the amazing web presence you imagine.`,
+    title:`Web Developer`,
+    objective:`I aim to provide your orginization the amazing web presence it deserves.`,
+    bio:`This is my biography since I'm too lazy to try to write a real one right now.`,
+    email:`hayden@haydenyoung.me`,
+    phone:`(859) 684-0445`,
+    linkedin:`https://www.linkedin.com/in/hayden-young-atp/`,
+    twitter:`https://twitter.com/haydenry`,
+    github:`https://github.com/ztlhayden`,
+    instagram:`https://www.instagram.com/aviatorextro/`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
