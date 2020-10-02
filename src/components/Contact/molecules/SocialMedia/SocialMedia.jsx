@@ -3,8 +3,6 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import SocialIcon from "./atoms/SocialIcon"
 
-import "../../../../assets/images/icons"
-
 const SocialMedia = () => {
   const data = useStaticQuery(graphql`
     {
