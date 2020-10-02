@@ -1,0 +1,29 @@
+.contact_wrapper {
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  
+  h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact_info {
+    ul {
+      list-style: none;
+      margin: 0 auto;
+      padding: 0;
+    }
+  }
+
+  .social_media_container {
+    div {
+      display: inline;
+    }
+    img {
+      width: 15%;
+      max-width: 30px;
+      margin: 10px;
+    }
+  }
+}

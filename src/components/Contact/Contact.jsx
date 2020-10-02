@@ -16,16 +16,18 @@ const Contact = () => {
 
   return (
     <div className="contact_wrapper"> 
+
+      <h2>Contact</h2>
+
       <div className="contact_info">
-        <h2>Contact</h2>
         <ul>
           <li><a href={`mailto: ${data.email}`}>{data.email}</a></li>
           <li><a href={`tel:+1 ${data.phone}`}>{data.phone}</a></li>
         </ul>
       </div>
-      <div className="social_containter">
-        <SocialMedia />
-      </div>
+
+      <SocialMedia />
+
     </div>
   )
 }
