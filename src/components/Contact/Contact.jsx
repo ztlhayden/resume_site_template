@@ -18,8 +18,8 @@ const Contact = () => {
     <div className="contact_wrapper"> 
       <div className="contact_info">
         <ul>
-          <li><a href="mailto:{data.resumeDataJson.email}">{data.email}</a></li>
-          <li><a href="tel:+1 {data.resumeDataJson.phone}">{data.phone}</a></li>
+          <li><a href={`mailto: ${data.email}`}>{data.email}</a></li>
+          <li><a href={`tel:+1 ${data.phone}`}>{data.phone}</a></li>
         </ul>
       </div>
       <div className="social_containter">
