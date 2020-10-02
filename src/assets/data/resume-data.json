@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Hayden Young",
+    "title": "Web Developer",
+    "objective": "I aim to provide your orginization the amazing web presence it deserves.",
+    "bio": "This is my biography since I'm too lazy to try to write a real one right now.",
+    "email": "hayden@haydenyoung.me",
+    "phone": "(859) 684-0445",
+    "social": {
+      "linkedin": {
+        "platform": "Linked In",
+        "link": "https://www.linkedin.com/in/hayden-young-atp/",
+        "icon": "${__dirname}/src/assets/images/icons/linkedin.svg"
+      },
+      "github": {
+        "platform": "Github",
+        "link": "https://github.com/ztlhayden",
+        "icon": "${__dirname}/src/assets/images/icons/github.svg"
+      },
+      "instagram": {
+        "platform": "Instagram",
+        "link": "https://www.instagram.com/aviatorextro/",
+        "icon": "${__dirname}/src/assets/images/icons/instagram.svg"
+      },
+      "codepen": {
+        "platform": "Codepen",
+        "link": "https://codepen.io/ztlhayden",
+        "icon": "${__dirname}/src/assets/images/icons/codepen.svg"
+      }
+    }
+  }
+]
