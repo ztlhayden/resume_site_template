@@ -1,8 +1,24 @@
 .bio_wrapper {
+  margin: 0 auto;
+  max-width: 768px;
+  min-width: 300px;
 
   .bio_picture {
-    max-width: 400px;
   }
 
-  
+  .bio_info {
+    text-align: right;
+    padding: 10px;
+    background-color: rgba(255,255,255,.75);
+    
+    float: left;
+    position: relative;
+    top: -175px;
+    margin-bottom: -175px;
+
+    h1{
+      margin: 0;
+      padding: 0;
+    }
+  }
 }
