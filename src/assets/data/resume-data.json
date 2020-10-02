@@ -9,23 +9,19 @@
     "social": {
       "linkedin": {
         "platform": "Linked In",
-        "link": "https://www.linkedin.com/in/hayden-young-atp/",
-        "icon": "${__dirname}/src/assets/images/icons/linkedin.svg"
+        "link": "https://www.linkedin.com/in/hayden-young-atp/"
       },
       "github": {
         "platform": "Github",
-        "link": "https://github.com/ztlhayden",
-        "icon": "${__dirname}/src/assets/images/icons/github.svg"
+        "link": "https://github.com/ztlhayden"
       },
       "instagram": {
         "platform": "Instagram",
-        "link": "https://www.instagram.com/aviatorextro/",
-        "icon": "${__dirname}/src/assets/images/icons/instagram.svg"
+        "link": "https://www.instagram.com/aviatorextro/"
       },
       "codepen": {
         "platform": "Codepen",
-        "link": "https://codepen.io/ztlhayden",
-        "icon": "${__dirname}/src/assets/images/icons/codepen.svg"
+        "link": "https://codepen.io/ztlhayden"
       }
     }
   }
