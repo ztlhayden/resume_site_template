@@ -4,16 +4,22 @@ import '../style/index.scss'
 
 import Bio from '../components/Bio/Bio'
 import Contact from "../components/Contact/Contact"
+import WorkExp from "../components/WorkExp/WorkExp"
 
 const IndexPage = () => (
   <div className="content_wrapper">
+    
     <Bio />
+    
     <Contact />
+    
     <div className="objective"></div>
 
-    <div className="work_exp_wrapper">
-      <div className="work_exp_item"></div>
-    </div>
+    <WorkExp />
+
+
+
+
 
 
     <div className="education_wrapper">

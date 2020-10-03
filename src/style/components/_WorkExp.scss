@@ -1,0 +1,32 @@
+.work_wrapper {
+  
+  h2 {
+    text-align: center;
+  }
+
+  .work_item_wrapper {
+  display: flex;
+  justify-content: space-around;
+  }
+
+  .work_item_container { 
+    width: 47%;
+
+    h3 {
+      margin: 0;
+      padding: 0;
+    }
+
+    .title {
+      display: inline-block;
+    }
+
+    .location {
+      display: inline-block;
+    }
+
+    .dates {
+      display: block;
+    }
+  }
+}
