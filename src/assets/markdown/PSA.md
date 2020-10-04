@@ -1,4 +1,5 @@
 ---
+school: false
 employer: "PSA Airlines, INC"
 title: "RJ50 First Officer"
 location: "Vandalia, Ohio"

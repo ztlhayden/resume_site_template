@@ -1,4 +1,5 @@
 ---
+school: false
 employer: "Nexgen Aviation, LLC"
 title: "Charter Pilot"
 location: "Lexington, KY"

@@ -6,16 +6,31 @@ import SEO from "../components/seo"
 import Bio from '../components/Bio/Bio'
 import Contact from "../components/Contact/Contact"
 import Summary from "../components/Summary/Summary"
-import WorkExp from "../components/WorkExp"
+import Experience from "../components/Experiance"
+import Footer from "../components/Footer"
 
 const IndexPage = () => (
   <div className="content_wrapper">
     <SEO title="Resume"/>
+    
+    <header>
+      <Bio />
+      <Contact />
+    </header>
 
-    <Bio />
-    <Contact />
-    <Summary />
-    <WorkExp />
+    <main>
+      <section>
+        <Summary />
+      </section>
+
+      <section>
+        <Experience />
+      </section>
+    </main>
+
+    <footer>
+      <Footer />
+    </footer>
   </div>
 )
 
