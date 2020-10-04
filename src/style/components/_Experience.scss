@@ -1,6 +1,7 @@
 .experience_wrapper {
   .exp_wrapper {
-    width: 95%;
+    max-width: 690px;
+    width: 90%;
     margin: 0 auto;
 
     h2 {
@@ -8,16 +9,18 @@
     }
 
     .item_wrapper {
-      display: flex;
-      justify-content: space-evenly;
+
+      .frontmatter {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
 
       .item_container {
         h3 {
           text-decoration: underline;
-        }
-
-        span {
-          margin: 0 10px;
+          display: inline;
+          margin: 0;
         }
       }
     }

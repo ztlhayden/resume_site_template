@@ -36,9 +36,11 @@ const Experience = () => {
               const exp = i.node
               if (exp.frontmatter.school === false ) {
                 return <div className="item_container card" key={exp.id}>
-                        <h3>{exp.frontmatter.title}, {exp.frontmatter.employer}</h3>
-                        <span className="location">{exp.frontmatter.location}</span>
-                        <span className="dates">{exp.frontmatter.start_date} - {exp.frontmatter.end_date}</span>
+                        <div className="frontmatter">
+                          <h3>{exp.frontmatter.title}, {exp.frontmatter.employer}</h3>
+                          <span className="location">{exp.frontmatter.location}</span>
+                          <span className="dates">{exp.frontmatter.start_date} - {exp.frontmatter.end_date}</span>
+                        </div>
                         <div className="duties" dangerouslySetInnerHTML={{__html: exp.html}}/>
                       </div>
               }
@@ -56,10 +58,12 @@ const Experience = () => {
             const exp = i.node
             if (exp.frontmatter.school === true ) {
               return <div className="item_container card" key={exp.id}>
-                      <h3>{exp.frontmatter.employer}</h3>
-                      <span className="title">{exp.frontmatter.title}</span>
-                      <span className="location">{exp.frontmatter.location}</span>
-                      <span className="dates">{exp.frontmatter.start_date} - {exp.frontmatter.end_date}</span>
+                      <div className="frontmatter">
+                        <h3>{exp.frontmatter.employer}</h3>
+                        <span className="title">{exp.frontmatter.title}</span>
+                        <span className="location">{exp.frontmatter.location}</span>
+                        <span className="dates">{exp.frontmatter.start_date} - {exp.frontmatter.end_date}</span>
+                      </div>
                       <div className="duties" dangerouslySetInnerHTML={{__html: exp.html}}/>
                     </div>
             }
