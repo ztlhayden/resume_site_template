@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer_wrapper">
       <Contact />
-      <button>back to top</button>
+      <button>Back</button>
     </div>
   )
 }

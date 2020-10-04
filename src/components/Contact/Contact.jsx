@@ -24,10 +24,9 @@ const Contact = () => {
           <li><a href={`mailto: ${data.email}`}>{data.email}</a></li>
           <li><a href={`tel:+1 ${data.phone}`}>{data.phone}</a></li>
         </ul>
+        
+        <SocialMedia />
       </div>
-
-      <SocialMedia />
-
     </div>
   )
 }

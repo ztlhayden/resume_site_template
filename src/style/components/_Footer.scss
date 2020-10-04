@@ -1,5 +1,6 @@
 .footer_wrapper {
-  height: 25px;
+  display: flex;
+  padding: 8px 0;
 
   button {
     display: block;
@@ -15,6 +16,9 @@
 
     h2 {
       display: none;
+    }
+
+    .contact_info {
     }
   }
 }

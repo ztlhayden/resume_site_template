@@ -1,0 +1,25 @@
+.experience_wrapper {
+  .exp_wrapper {
+    width: 95%;
+    margin: 0 auto;
+
+    h2 {
+      text-align: center;
+    }
+
+    .item_wrapper {
+      display: flex;
+      justify-content: space-evenly;
+
+      .item_container {
+        h3 {
+          text-decoration: underline;
+        }
+
+        span {
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+}
