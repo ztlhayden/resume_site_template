@@ -23,6 +23,26 @@
         "platform": "Codepen",
         "link": "https://codepen.io/ztlhayden"
       }
-    }
+    },
+    "Education": {
+        "High School": {
+          "school": "Some Highschool",
+          "degree": "HSDG",
+          "graduated": true,
+          "dates": "Jan-10, Aug-14"
+        },
+        "University": {
+          "school": "Some Uni",
+          "degree": "Things",
+          "graduated": true,
+          "dates": "Jan-10, Aug-14"
+        },
+        "Masters": {
+          "school": "Some Other School",
+          "degree": "Big Things",
+          "graduated": true,
+          "dates": "Jan-10, Aug-14"
+        }
+      }
   }
 ]

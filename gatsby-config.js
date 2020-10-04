@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Hayden Young's Resume`,
+    title: `Hayden Young`,
     description: `Freelance web designer from Lexington, Kentucky.`,
     author: `Hayden Young`,
     siteUrl: `https://haydenyoung.me`,

@@ -1,38 +1,21 @@
 import React from "react"
 
 import '../style/index.scss'
+import SEO from "../components/seo"
 
 import Bio from '../components/Bio/Bio'
 import Contact from "../components/Contact/Contact"
-import WorkExp from "../components/WorkExp/WorkExp"
+import Summary from "../components/Summary/Summary"
+import WorkExp from "../components/WorkExp"
 
 const IndexPage = () => (
   <div className="content_wrapper">
-    
+    <SEO title="Resume"/>
+
     <Bio />
-    
     <Contact />
-    
-    <div className="objective"></div>
-
+    <Summary />
     <WorkExp />
-
-
-
-
-
-
-    <div className="education_wrapper">
-      <div className="education_item"></div>
-    </div>
-
-    <div className="skills_wrapper">
-      <div className="skills_list">
-        <div className="skills_items"></div>
-      </div>
-    </div>
-
-
   </div>
 )
 
