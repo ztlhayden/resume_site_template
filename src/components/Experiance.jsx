@@ -35,7 +35,7 @@ const Experience = () => {
             experience.map(i => {
               const exp = i.node
               if (exp.frontmatter.school === false ) {
-                return <div className="item_container card" key={exp.id}>
+                return <div className="item_container" key={exp.id}>
                         <div className="frontmatter">
                           <h3>{exp.frontmatter.title}, {exp.frontmatter.employer}</h3>
                           <span className="location">{exp.frontmatter.location}</span>
@@ -57,7 +57,7 @@ const Experience = () => {
           experience.map(i => {
             const exp = i.node
             if (exp.frontmatter.school === true ) {
-              return <div className="item_container card" key={exp.id}>
+              return <div className="item_container" key={exp.id}>
                       <div className="frontmatter">
                         <h3>{exp.frontmatter.employer}</h3>
                         <span className="title">{exp.frontmatter.title}</span>

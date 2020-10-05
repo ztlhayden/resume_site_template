@@ -5,7 +5,8 @@
 
 html {
   color: $black;
-  background-color: $background;
+  background: rgb(17,128,149);
+  background: linear-gradient(90deg, rgba(17,128,149,1) 0%, rgba(0,90,133,1) 100%);
   box-sizing: border-box;
   min-width: 320px;
 }
@@ -15,4 +16,5 @@ html {
   width: 93%;
   padding: 8px;
   margin: 0 auto;
+  box-shadow: 0px 0px 20px 3px rgba(65, 65, 65, .6);
 }
