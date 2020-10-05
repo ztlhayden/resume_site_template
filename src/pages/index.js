@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import Bio from '../components/Bio/Bio'
 import Contact from "../components/Contact/Contact"
 import Summary from "../components/Summary/Summary"
-import Experience from "../components/Experiance"
+import Experience from "../components/Experience"
 import Footer from "../components/Footer"
 
 const IndexPage = () => (

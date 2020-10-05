@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 const Experience = () => {
   const data = useStaticQuery(graphql`
     {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: {fields: frontmatter___start_date, order: DESC}) {
         edges {
           node {
             id
