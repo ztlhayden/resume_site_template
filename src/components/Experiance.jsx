@@ -59,8 +59,7 @@ const Experience = () => {
             if (exp.frontmatter.school === true ) {
               return <div className="item_container" key={exp.id}>
                       <div className="frontmatter">
-                        <h3>{exp.frontmatter.employer}</h3>
-                        <span className="title">{exp.frontmatter.title}</span>
+                        <h3>{exp.frontmatter.title}, {exp.frontmatter.employer}</h3>
                         <span className="location">{exp.frontmatter.location}</span>
                         <span className="dates">{exp.frontmatter.start_date} - {exp.frontmatter.end_date}</span>
                       </div>

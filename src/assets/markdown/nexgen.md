@@ -1,11 +1,13 @@
 ---
 school: false
-employer: "Nexgen Aviation, LLC"
+employer: "Nexgen Aviation"
 title: "Charter Pilot"
 location: "Lexington, KY"
-start-date: "04/2018"
-end-date: "12/2019"
+start-date: "2017"
+end-date: "2018"
 ---
 
-- Did things at places.
-- did other things here too.
+- Affected safe and efficient operation of multiple types of aircraft.
+- Assisted in the creation and maintenance of operating procedures, training programs, and other certificate documents.
+- Provided excellent customer service face-to-face with clients.
+- Conducted safety and regulatory compliance auditing. 

@@ -1,11 +1,12 @@
 ---
 school: false
-employer: "PSA Airlines, INC"
+employer: "PSA Airlines"
 title: "RJ50 First Officer"
 location: "Vandalia, Ohio"
-start-date: "09/2018"
-end-date: "12/2019"
+start-date: "2019"
+end-date: "2020"
 ---
 
-- Did things at places.
-- did other things here too.
+- Assisted the Captain in safe and efficient operation of CRJ aircraft. 
+- Mentored more junior pilots.
+- Practiced CRM and leadership as a member of a 4 to 6 person crew.
